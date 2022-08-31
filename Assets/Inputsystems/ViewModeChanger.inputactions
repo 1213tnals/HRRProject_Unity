@@ -1,0 +1,34 @@
+{
+    "name": "ViewModeChanger",
+    "maps": [
+        {
+            "name": "Default",
+            "id": "1e8d0821-d6ff-4c03-a2aa-668f2351d3d6",
+            "actions": [
+                {
+                    "name": "ChangeView",
+                    "type": "Button",
+                    "id": "c9d68f76-7881-42ae-8d27-f8a3a8dc89de",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "86f08242-5e90-408f-970b-3c76aabb361e",
+                    "path": "<XRInputV1::Oculus::OculusTouchControllerRight>{RightHand}/primarybutton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "ChangeView",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}

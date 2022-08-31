@@ -1,0 +1,34 @@
+{
+    "name": "Default",
+    "maps": [
+        {
+            "name": "Default",
+            "id": "50dd32eb-f0c9-40b3-8fff-55fc3948a290",
+            "actions": [
+                {
+                    "name": "ChangeHand",
+                    "type": "Button",
+                    "id": "bbdebbef-beaa-4f28-b916-a9d60af55226",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "75c6817f-b7c1-4eb0-af33-006f87b1fd9b",
+                    "path": "<XRInputV1::Oculus::OculusTouchControllerRight>{RightHand}/primarybutton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "ChangeHand",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}

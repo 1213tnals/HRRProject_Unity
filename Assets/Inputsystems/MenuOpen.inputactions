@@ -1,0 +1,34 @@
+{
+    "name": "MenuOpen",
+    "maps": [
+        {
+            "name": "Default",
+            "id": "c98ef976-5db6-49fe-8dd5-b1ad634a6bb1",
+            "actions": [
+                {
+                    "name": "MenuOpen",
+                    "type": "Button",
+                    "id": "e0acc118-5034-4c3e-b5e1-2c4dc9d2a59f",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "f33b1593-6c3f-4e7b-ab4f-e44b56129094",
+                    "path": "<XRInputV1::Oculus::OculusTouchControllerRight>{RightHand}/secondarybutton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "MenuOpen",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
